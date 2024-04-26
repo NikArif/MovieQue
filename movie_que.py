@@ -8,7 +8,7 @@ import numpy as np
 load_dotenv()
 
 # Initialize openai client
-openai.api_key = st.secrets("OPENAI_API_KEY")
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Streamlit app layout
 def main():
